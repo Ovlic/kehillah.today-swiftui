@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Kehillah's Bell Schedule | kehillah.today</title>
+        <meta name="title" content="Kehillah's Bell Schedule | kehillah.today">
+        <meta name="description" content="kehillah.today keeps track of Kehillah's mildly frustrating bell schedule so that you don't have to.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://kehillah.today/">
+        <meta property="og:title" content="Kehillah's Bell Schedule | kehillah.today">
+        <meta property="og:description" content="kehillah.today keeps track of Kehillah's mildly frustrating bell schedule so that you don't have to.">
+        <meta property="og:image" content="https://kehillah.today/images/khtd.png">
+        <meta name="theme-color" content="#eeeeff">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+        <link rel="manifest" href="favicon/site.webmanifest" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Barlow+Semi+Condensed&display=swap" rel="stylesheet" />
+        <title>kehillah.today</title>
+        <script src="dates.js?v=0"></script>
+        <meta name="description" content="" />
+    </head>
+
+    <body style="background-color:#eef" class="unselectable">
+        <p class="logo" style="margin: 20px 0px 5px 20px; cursor: pointer" onClick="easterEgg()">
+            <span style="color: #414256">kehillah</span><span style="color: #9590a5">.</span><span
+                style="color: #cc3333">today</span>
+        </p>
+
+        <p style="margin: 0px 0px 0px 20px; line-height: 1.5;">
+            <i><span style="color: #414256"><span id="todayis"><noscript>JavaScript is disabled. This website will not function until you enable it.</noscript></span><span id="howstheschedule"></span></i><br>
+            <i><span style="color: #414256"><span id="todayis"><noscript>Learn how to enable JavaScript in your browser <a href="https://enable-javascript.com">here</a>.</noscript></span><span id="currenttime" class="topright"></span></i>
+        </p>
+
+
+        <p class="display above-clock" id="whatsup"></p>
+        <p class="display clock" id="clock"></p>
+        
+
+        <p class="logo" >
+            <span style="color: #414256">kehillah</span><span style="color: #9590a5">.</span><span
+                style="color: #cc9933">upcoming</span>
+        </p>
+
+        <p style="margin: 20px; font-style: italic; font-size: 25px; color: #aac; display: none;" id="upcomingblock"><span id="upcomingnotice"></span></p>
+
+        <span id="today"></span>
+
+        <br class="small">
+
+        <p class="logo">
+            <span style="color: #414256">kehillah</span><span style="color: #9590a5">.</span><span
+                style="color: #3399cc">tomorrow</span>
+        </p>
+
+        <p style="margin: 20px; font-style: italic; font-size: 25px; color: #aac; display: none;" id="tomorrowblock"><br><br><span id="tomorrownotice"></span></p>
+        
+        <span id="tomorrow"></span>
+        
+        <br class="small">
+
+        <p class="logo" style="display: none">
+            <span style="color: #414256">kehillah</span><span style="color: #9590a5">.</span><span
+                style="color: #9933cc">future</span>
+        </p>
+
+        <p><button class="button" onclick="ChangeClasses()">
+            Rename Blocks
+        </button></p>
+
+        <form onsubmit="return false;" method="post" id="ClassForm" style="margin: 20px; display: none">
+            <label for="classBlock1" id="labelBlock1">Block 1</label>
+            <input type="text" class="classinput" id="classBlock1" placeholder="Block 1"><br>
+            <label for="classBlock2" id="labelBlock2">Block 2</label>
+            <input type="text" class="classinput" id="classBlock2" placeholder="Block 2"><br>
+            <label for="classBlock3" id="labelBlock3">Block 3</label>
+            <input type="text" class="classinput" id="classBlock3" placeholder="Block 3"><br>
+            <label for="classBlock4" id="labelBlock4">Block 4</label>
+            <input type="text" class="classinput" id="classBlock4" placeholder="Block 4"><br>
+            <label for="classBlock5" id="labelBlock5">Block 5</label>
+            <input type="text" class="classinput" id="classBlock5" placeholder="Block 5"><br>
+            <label for="classBlock6" id="labelBlock6">Block 6</label>
+            <input type="text" class="classinput" id="classBlock6" placeholder="Block 6"><br>
+            <label for="classBlock7" id="labelBlock7">Block 7</label>
+            <input type="text" class="classinput" id="classBlock7" placeholder="Block 7"><br>
+            <label for="classBlock8" id="labelBlock8">Block 8</label>
+            <input type="text" class="classinput" id="classBlock8" placeholder="Block 8"><br>
+            <label for="classBlock9" id="labelBlock9">Block 9</label>
+            <input type="text" class="classinput" id="classBlock9" placeholder="Block 9"><br>
+            <label for="classReflectivePractice" id="labelReflectivePractice">Reflective Practice</label>
+            <input type="text" class="classinput" id="classReflectivePractice" placeholder="Reflective Practice">
+    <br><br>
+            <input type="submit" onclick="return makeCookies()" class="classsubmit" value="Update">
+        </form>
+
+        <p id="credits" style="color:#aac; margin: 20px;" class="lines">
+        <span>Created by B. Gill. Contact me at <a href="mailto: bgill2023@kehillahstudent.org"><span style="color: #aac">bgill2023@kehillahstudent.org</span></a>.</span><br>
+        <span>iOS app by J. Buck. Contact me at <a href="mailto: jbuck2026@kehillahstudent.org"><span style="color: #aac">jbuck2026@kehillahstudent.org</span></a>.</span><br>
+        <span>Data sourced from the <a href="https://kehillah.org/wp-content/uploads/2022/08/MasterSchedule22_23.jpg" target="_blank" rel="noopener noreferrer"><span style="color: #aac">Kehillah master schedule</span></a>.</span><br>
+        <span><span style="font-family: Righteous">kehillah.today</span> is not affiliated with <a href="https://kehillah.org/" target="_blank" rel="noopener noreferrer"><span style="color: #aac">kehillah.org</span></a>.</span><br>
+        <span>Fonts used: <span style="font-family: Righteous">Righteous</span>, <span style="font-family: Bebas Neue">Bebas Neue</span>, and Barlow Semi Condensed.</span><br>
+        <span id="version">v0.4.9 &mdash; September 6, 2022</span><br>
+        <span></p>
+        <script charset="utf-8">
+            minutes = 0;
+            dnow = new Date(); //generates a date object
+            var dotw = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"] //days of the week
+            var fulldotw = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Logsday"] //remove logsday
+            var fullmoty = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] //months of the year
+            var trigger = -1;
+            var ftrigger = -1;
+            var theschedule = ""
+            var tomorrowschedule = ""
+            var blockcolors = ["#c6c6d6","#6ec0d6","#8d7cc2","#c17ba0","#e06665","#2aa3ac","#d64087","#b4a7d5","#9fc5e9","#d6a6be","#aaccaa","#c9ccaa","#6c91d9"] /* #0 is misc, 1-9 are blocks, 10 is lunch, 11 is RP, 12 is Kab Shab */
+            var correctjsondata = ""
+            var total = 0
+            var tomorrowtotal = 0
+            var pageloaddate = dnow.getDate()
+            var tinyscreen = false;
+            var dashes = 2;
+            var dasharray = ["", "-", "⸻"]
+            var start = 0;
+            var tomorrowstart = 0;
+            var datesearch = 0;
+
+            var noschool = false;
+            var noschooltomorrow = false;
+
+            var nexteventtime = 0;
+            var cookiejar = []
+            var istheClassNameformvisible = false;
+            var customnamesforevents = []
+            var regularnamesforevents = ["Block 1","Block 2","Block 3","Block 4","Block 5","Block 6","Block 7","Block 8","Block 9","Reflective Practice"]
+
+            var easterhue = 240;
+
+            document.getElementById('todayis').innerText = fulldotw[dnow.getDay()] + ", " + fullmoty[dnow.getMonth()] + " " + dnow.getDate() + " \u00B7 "//" · " //updates
+
+            function apz(num) { /*add prefix zero*/
+                return (num < 10 ? '0' : '') + num;
+            };
+
+            function removeBrokenCharacters(string) {
+                return (string.replace(/[;\,]/g, ''))
+            }
+
+            function ChangeClasses() {
+                if(!istheClassNameformvisible) {
+                    document.getElementById('ClassForm').style.display = "block"
+                    istheClassNameformvisible = true;
+                } else {
+                    document.getElementById('ClassForm').style.display = "none"
+                    istheClassNameformvisible = false;
+                }
+            }
+
+            function toUnix(timestamp) {
+                minsunix = Date.now() + (timestamp * 60000)
+                return new Date(minsunix).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'})
+            }
+
+            function MakeFunTimestamps(convert) {
+                if (convert <= 0) {
+                    convertible = "Passed!";
+                } else if (convert <= 1) {
+                    convertible =
+                    (((convert) * 60).toFixed(2) + "s");
+                } else if (convert <= 60) {
+                    convertible =
+                    (Math.floor((convert))) +
+                        "m " +
+                        (Math.floor((convert * 60)) % 60) +
+                        "s"
+                } else if (convert > 60) {
+                    convertible =
+                    (Math.floor((convert) / 60)) +
+                        "h " +
+                        (Math.floor((convert)) % 60) +
+                        "m";
+                }
+
+                return convertible;
+            }
+
+            function makeCookies() { //they're called "cookies" because i used cookies before localStorage, but that didn't work on safari. i keep it here because "storageJar" sounds really lame. besides, why are you even looking through this code? did something break??
+                cookiejar = []
+                for(i = 0; i < 10; i++) {
+                console.log(removeBrokenCharacters(document.getElementsByClassName('classinput')[i].value));
+                cookiejar.push(removeBrokenCharacters(document.getElementsByClassName('classinput')[i].value))
+                }
+                localStorage.setItem("classes", cookiejar.toString());
+                location.reload()
+            }
+
+            function cookieToClasses() {
+                if(localStorage.getItem('classes') == null) {
+                    localStorage.setItem('classes', regularnamesforevents.toString());
+                }
+                console.log(localStorage.getItem('classes'))
+                var magic = (localStorage.getItem('classes').split(","));
+                console.log(magic)
+                console.log("^^")
+                for(i = 0; i < 10; i++) {
+                if(!(magic[i] == regularnamesforevents[i])) {
+                document.getElementById("class" + regularnamesforevents[i].replace(/\s/g, '')).value = magic[i]
+                }
+                console.log(magic[i])
+                customnamesforevents.push(magic[i])
+                }
+            }
+            cookieToClasses()
+
+            function CustomEventName(name) {
+                if(customnamesforevents[regularnamesforevents.indexOf(name)] == '' || customnamesforevents[regularnamesforevents.indexOf(name)] == undefined || name == customnamesforevents[regularnamesforevents.indexOf(name)]) {
+                    return name;
+                } else {
+                    return "<i>" + customnamesforevents[regularnamesforevents.indexOf(name)] + "</i>"
+                    //return customnamesforevents[regularnamesforevents.indexOf(name)]
+                }
+            }
+
+            function getColor(id) {
+                console.log(id)
+                if(id.startsWith("Block")) {
+                    return blockcolors[id.slice(-1)];
+                } else if(id.startsWith("Lunch")) {
+                    return blockcolors[10];
+                } else if(id.startsWith("Reflective")) {
+                    return blockcolors[11];
+                } else if(id.startsWith("Kab Shab")) {
+                    return blockcolors[12];
+                } else {
+                    return blockcolors[0];
+                }
+            }
+
+            function easterEgg() {
+                easterhue = ((easterhue + 100) % 360)
+                document.body.style.backgroundColor = "none"
+                document.body.style.backgroundColor = "hsl(" + easterhue + ", 100%, 96%)"
+            }
+
+            function findNextDay() {
+                var tomorrow = new Date();
+                tomorrow.setDate(dnow.getDate() + 1)
+                return WhichScheduleToLoad(tomorrow.getFullYear() + "-" + apz(tomorrow.getMonth() + 1) + "-" + apz(tomorrow.getDate()), true)
+            }
+
+            function UpdateClock(convert) {
+                //console.log(convert)
+                if (convert <= 0) {
+                    convertible = "";
+                } else if (convert <= 1) {
+                    convertible =
+                    apz(((convert) * 60).toFixed(2));
+                } else if (convert <= 60) {
+                    convertible =
+                    apz(Math.floor((convert))) +
+                        ":" +
+                        apz(Math.floor((convert * 60)) % 60)
+                } else if (convert > 60) {
+                    convertible =
+                    apz(Math.floor((convert) / 60)) +
+                        ":" +
+                        apz(Math.floor((convert)) % 60) +
+                        ":" + apz(Math.floor((convert * 60)) % 60)
+                }
+
+                return convertible;
+            }
+
+            datedata = window.dates;
+
+            function WhichScheduleToLoad(day = (dnow.getFullYear() + "-" + apz(dnow.getMonth() + 1) + "-" + apz(dnow.getDate())), tomorrow) {
+                //console.log(day)
+                if (day in datedata) {
+                    //console.log("Custom schedule for this date exists.")
+                    if(tomorrow === false) {
+                        document.getElementById('howstheschedule').innerText = "Abnormal Schedule"
+                        window.theschedule = day
+                    } else if(tomorrow === true) {
+                        window.tomorrowschedule = day
+                    }
+                    return day
+                } else {
+                    //console.log("Custom schedule for this date does not exist.")
+                    if(tomorrow === false) {
+                        document.getElementById('howstheschedule').innerText = "Normal Schedule"
+                        window.theschedule = dotw[(new Date(day + "T00:00-08:00")).getDay()]
+                    } else if(tomorrow === true) {
+                        window.tomorrowschedule = dotw[(new Date(day + "T00:00-08:00")).getDay()]
+                    }
+                    return dotw[(new Date(day + "T00:00-08:00")).getDay()]
+                }
+            }
+
+            function CustomScheduleExists(day) {
+                if (day in datedata) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            if(screen.width < 500) {
+                tinyscreen = true;
+                dashes = 0;
+            }
+
+            function NextEventTime() {
+                for(search = 1; search < 50; search++) {
+                    var day = new Date();
+                    //console.log(search)
+                    day.setDate(dnow.getDate() + search)
+                    var dateset = (WhichScheduleToLoad(day.getFullYear() + "-" + apz(day.getMonth() + 1) + "-" + apz(day.getDate())))
+                    if(!(datedata[dateset]['events'][0]['name'] == "No School")) {
+                        for(s = 0; s < 20; s++) {
+                        if(!(CustomEventName(datedata[dateset]['events'][s]['name']) == "Free") && !(CustomEventName(datedata[dateset]['events'][s]['name']) == "<i>Free</i>")) {
+                            console.log('returned with s= ' + s + "; " + datedata[dateset]['events'][s]['name'])
+                        return (1440 * (search) + datedata[dateset]['events'][s]['timestamp'] - minutes)
+                        }
+                        }
+                    }
+                }
+            }
+
+            function CurrentTime() {
+                datenow = new Date();
+                return datenow.toLocaleTimeString([], {hour: 'numeric', minute:'2-digit', second:'2-digit'})
+            }
+
+            function UpdateTimer() {
+                trigger = -1;
+                var dnow = new Date();
+                minutes = ((dnow.getSeconds() / 60) + dnow.getMinutes() + (dnow.getHours() * 60) + (dnow.getMilliseconds() / 60000))
+                for (i = start; i < EventsToLoad; i++) {
+                    document.getElementById('event_' + String(i)).innerHTML = "<b>" + CustomEventName(datedata[theschedule]['events'][i]['name']) + "</b> at " + toUnix(datedata[theschedule]['events'][i]['timestamp'] - minutes) + " (" + MakeFunTimestamps(datedata[theschedule]['events'][i]['timestamp'] - minutes) + ")";
+                    if (datedata[theschedule]['events'][i]['timestamp'] - minutes < 0) {
+                        start += 1;
+                        document.getElementById('event_' + String(i)).style.display = "none";
+                        //console.log("hid element: " + datedata[theschedule]['events'][i]['timestamp'] + " was less than " + minutes)
+                    } else {
+                        if(trigger == -1) {
+                        console.log('triggered thing - item #' + i + ' was visible!')
+                            trigger = i;
+                        }
+                    }
+                }
+                for (i = tomorrowstart; i < tomorrowEventsToLoad; i++) {
+                    document.getElementById('tomorrow_' + String(i)).innerHTML = ("<b>" + CustomEventName(datedata[tomorrowschedule]['events'][i]['name']) + "</b> at " + toUnix(datedata[tomorrowschedule]['events'][i]['timestamp'] - minutes + 1440) + " (" + MakeFunTimestamps(datedata[tomorrowschedule]['events'][i]['timestamp'] - minutes + 1440) + ")"); //adjust number of minutes
+                        if(ftrigger == -1) {
+                        console.log('triggered thing - item #' + i + ' was visible!')
+                            ftrigger = i;
+                        }
+                    
+                }
+
+                if(noschool == true || start === EventsToLoad) {
+                    document.getElementById('upcomingblock').style.display = "block"
+                    if(noschool === false) {
+                        document.getElementById('upcomingnotice').innerText = "No more events today."
+                    }
+                    document.getElementById('clock').innerText = UpdateClock(NextEventTime())
+                    document.title = (UpdateClock(NextEventTime) + " | kehillah.today")
+
+                } else {
+                    document.getElementById('clock').innerText = UpdateClock(datedata[theschedule]['events'][trigger]['timestamp'] - minutes)
+                    document.title = (UpdateClock(datedata[theschedule]['events'][trigger]['timestamp'] - minutes) + " | kehillah.today")
+                }
+                if(trigger <= 0) {
+                    document.getElementById('whatsup').innerHTML = dasharray[dashes] + "&emsp; FREE &emsp;" + dasharray[dashes]
+                } else {
+                    document.getElementById('whatsup').innerHTML = dasharray[dashes] + "&emsp;" + CustomEventName(datedata[theschedule]['events'][trigger - 1]['name']) + "&emsp;" + dasharray[dashes]
+                }
+                document.getElementById('currenttime').innerHTML = CurrentTime()
+                if(!(pageloaddate == dnow.getDate())) {
+                    location.reload()
+                }
+            }
+
+            function MakeEverything() {
+                correctjsondata = window.datedata[WhichScheduleToLoad(undefined, false)]['events']
+                correctjsondata.forEach(function(object) {
+                    if(object.name) {
+                        total = total + 1;
+                        console.log("found thing. total is now " + total)
+                    }
+                    if(object.name == 'No School') {
+                        console.log("NO SCHOOL TODAY")
+                        noschool = true
+                    }
+                })
+
+                if (!(datedata[theschedule]['message'] == undefined)) {
+                document.getElementById('howstheschedule').innerText = datedata[theschedule]['message']
+                
+                }
+
+                window.EventsToLoad = total;
+                console.log("Loading events: " + window.EventsToLoad);
+                for (var q = 0; q < window.EventsToLoad; q += 1) { //Make HTML elements
+                    var div = document.createElement("div");
+                    console.log("Made element event_" + q + ".");
+                    div.id = ("event_" + q);
+                    div.innerHTML = ("Loading...");
+                    div.style.padding = "15px";
+                    div.style.backgroundColor = "#9590a5";
+                    div.style.boxShadow = "0px 0px 0px 2px #eef";
+                    div.style.textAlign = "left";
+                    div.style.fontSize = "1.5em"
+                    div.style.lineHeight = "100%"
+                    console.log(q)
+                    div.style.background = getColor(datedata[theschedule]['events'][q]['name'])
+                    if(noschool) {
+                        div.style.display = "none";
+                        document.getElementById('upcomingblock').style.display = "block";
+                        document.getElementById('upcomingnotice').innerText = "No school today."
+                    }
+                    document.getElementById("today").appendChild(div);
+                }
+            }
+
+            function MakeTomorrow() {
+                correctjsondata = window.datedata[WhichScheduleToLoad(findNextDay(), true)]['events']
+                console.log(correctjsondata)
+                correctjsondata.forEach(function(object) {
+                    console.log(object)
+                    if(object.name) {
+                        tomorrowtotal = tomorrowtotal + 1;
+                    }
+                    if(object.name == 'No School') {
+                        console.log("NO SCHOOL TOMORROW")
+                        noschooltomorrow = true
+                    }
+                })
+
+                if (!(datedata[theschedule]['events'][tomorrowtotal] == undefined)) {
+                    if("message" in datedata[theschedule]['events'][tomorrowtotal]) {
+                document.getElementById('howstheschedule').innerText = datedata[theschedule]['events'][tomorrowtotal]['message']
+                }
+            }
+                window.tomorrowEventsToLoad = tomorrowtotal;
+                console.log("Loading events: " + window.tomorrowEventsToLoad);
+                for (var i = 0; i < window.tomorrowEventsToLoad; i += 1) { //Make HTML elements
+                    var div = document.createElement("div");
+                    console.log("Made an element.");
+                    div.id = ("tomorrow_" + i);
+                    div.innerHTML = ("Loading...");
+                    div.style.padding = "15px";
+                    div.style.backgroundColor = "#9590a5";
+                    div.style.boxShadow = "0px 0px 0px 2px #eef";
+                    div.style.textAlign = "left";
+                    div.style.fontSize = "1.5em"
+                    div.style.lineHeight = "100%"
+                    div.style.background = getColor(datedata[tomorrowschedule]['events'][i]['name'])
+                    if(noschooltomorrow) {
+                        div.style.display = "none";
+                        document.getElementById('tomorrowblock').style.display = "block";
+                        document.getElementById('tomorrownotice').innerText = "No school tomorrow."
+                    }
+                    document.getElementById("tomorrow").appendChild(div);
+                }
+            }
+
+            function searchFuture() {
+                for (b = 1; b < 300; b++) {
+                    datesearch = new Date()
+                    datesearch.setDate(dnow.getDate() + b)
+                    scan = (datesearch.getFullYear() + "-" + apz(datesearch.getMonth() + 1) + "-" + apz(datesearch.getDate()))
+                    if(CustomScheduleExists(scan)) {
+                        console.log(scan + " / " + datedata[scan]['message'])
+                    }
+                }
+            }
+
+            MakeEverything()
+            MakeTomorrow()
+            
+
+            setInterval(UpdateTimer, 58)
+        </script>
+
+    </body>
+    <style>
+        .display {
+            font-family: 'Bebas Neue';
+            margin: 10px 40px 10px 40px;
+            text-align: center;
+            color: #335;
+            line-height: 1
+
+        }
+
+        .clock {
+            font-size: 150px;
+        }
+
+        .above-clock {
+            font-size: 40px
+        }
+
+        .logo {
+            font-family: 'Righteous';
+            font-size: 30px;
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: #aac underline;
+        }
+
+        p {
+            line-height: 1;
+            margin: 0
+        }
+
+        .lines {
+            line-height: 1.5
+        }
+
+        .small {
+            line-height: 0.4
+        }
+
+        body {
+            font-family: 'Barlow Semi Condensed';
+            font-variant-numeric: tabular-nums;
+        }
+
+        .button {
+            all: unset;
+            border: none;
+            text-align: center;
+            background-color: #aac;
+            font-size: 18px;
+            margin: 20px;
+            padding: 10px 24px;
+            border-radius: 4px;
+            transition-duration: 0.2s;
+        }
+
+        .button:hover {
+            background-color: #cce
+        }
+
+        .classinput {
+            background-color: #eef;
+            font-family: 'Barlow Semi Condensed';
+            font-variant-numeric: tabular-nums;
+            font-size: 18px;
+            border: 2px solid #cce;
+            margin: 3px;
+        }
+
+        label {
+            font-size: 18px
+        }
+
+        .classsubmit {
+            all: unset;
+            padding: 3px;
+            text-align: center;
+            -webkit-appearance: none;
+            background-color: #eef;
+            font-family: 'Barlow Semi Condensed';
+            font-variant-numeric: tabular-nums;
+            font-size: 18px;
+            border: 2px solid #202026;
+            transition-duration: 0.2s;
+            font-weight: bold;
+            width: 25%;
+        }
+
+        .classsubmit:hover {
+            background-color: #202026;
+            color: #eef;
+        }
+
+        .classinput:focus {
+            outline: none;
+            box-shadow: 0 0 10px #9696b5;
+            font-weight: bold;
+        }
+
+        ::placeholder {
+            color: #babad9;
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .clock {
+            font-size: 100px;
+            }
+        }
+        /*.topright {
+              position: absolute;
+              top: 25px;
+              right: 25px;
+        }*/
+        #content-desktop {display: block;}
+        #content-mobile {display: none;}
+
+        @media screen and (max-width: 768px) {
+            .topright {
+                  position: absolute;
+                  top: 25px;
+                  right: 25px;
+            }
+            #content-desktop {display: none;}
+            #content-mobile {display: block;}
+
+        }
+    </style>
+</html>
