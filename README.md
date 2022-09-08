@@ -1,5 +1,5 @@
 # kehillah.today-swiftui
-SwiftUI app for kehillah.today
+iOS app for kehillah.today
 
 
 App Store release coming soon!  
