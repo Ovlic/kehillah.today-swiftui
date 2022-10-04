@@ -500,7 +500,7 @@ var dates = {
             "timestamp":510
          },
          {
-            "name":"Passing Period",
+            "name":"Pa__ing Period",
             "timestamp":562
          },
          {
@@ -508,15 +508,15 @@ var dates = {
             "timestamp":565
          },
          {
-            "name":"Passing Period",
+            "name":"Pa__ing Period",
             "timestamp":617
          },
          {
-            "name":"Kab Shab",
+            "name":"Kab _hab",
             "timestamp":620
          },
          {
-            "name":"Passing Period",
+            "name":"Pa__ing Period",
             "timestamp":647
          },
          {
@@ -524,7 +524,7 @@ var dates = {
             "timestamp":650
          },
          {
-            "name":"Passing Period",
+            "name":"Pa__ing Period",
             "timestamp":702
          },
          {
@@ -532,7 +532,7 @@ var dates = {
             "timestamp":705
          },
          {
-            "name":"Passing Period",
+            "name":"Pa__ing Period",
             "timestamp":757
          },
          {
@@ -548,7 +548,7 @@ var dates = {
             "timestamp":867
          }
       ],
-      "message":"Balancing Blocks"
+      "message":"Balancing Blocks<br>The ninteenth letter of the alphabet is removed from the webpage to honor our champion, _hane."
    },
    "2022-09-26":{
       "events":[
@@ -678,6 +678,15 @@ var dates = {
          },
          {
             "name":"i'm sorry i really don't know the schedule for today since no one told me it. please don't come to school at 3 am",
+            "timestamp":1439
+         }
+      ],
+      "message":"SAT Testing"
+   },
+   "2022-10-05":{
+      "events":[
+         {
+            "name":"No School",
             "timestamp":1439
          }
       ]
