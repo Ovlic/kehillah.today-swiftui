@@ -1,4 +1,3 @@
-
 var dates = {
    "MON":{
       "events":[
@@ -500,7 +499,7 @@ var dates = {
             "timestamp":510
          },
          {
-            "name":"Pa__ing Period",
+            "name":"Passing Period",
             "timestamp":562
          },
          {
@@ -508,7 +507,7 @@ var dates = {
             "timestamp":565
          },
          {
-            "name":"Pa__ing Period",
+            "name":"Passing Period",
             "timestamp":617
          },
          {
@@ -516,7 +515,7 @@ var dates = {
             "timestamp":620
          },
          {
-            "name":"Pa__ing Period",
+            "name":"Passing Period",
             "timestamp":647
          },
          {
@@ -524,7 +523,7 @@ var dates = {
             "timestamp":650
          },
          {
-            "name":"Pa__ing Period",
+            "name":"Passing Period",
             "timestamp":702
          },
          {
@@ -532,7 +531,7 @@ var dates = {
             "timestamp":705
          },
          {
-            "name":"Pa__ing Period",
+            "name":"Passing Period",
             "timestamp":757
          },
          {
@@ -548,7 +547,7 @@ var dates = {
             "timestamp":867
          }
       ],
-      "message":"Balancing Blocks<br>The ninteenth letter of the alphabet is removed from the webpage to honor our champion, _hane."
+      "message":"Balancing Blocks"
    },
    "2022-09-26":{
       "events":[
@@ -673,11 +672,11 @@ var dates = {
    "2022-10-12":{
       "events":[
          {
-            "name":"SAT",
-            "timestamp":180
+            "name":"SAT? Maybe?",
+            "timestamp":480
          },
          {
-            "name":"i'm sorry i really don't know the schedule for today since no one told me it. please don't come to school at 3 am",
+            "name":"Since I'm not taking the SAT, I don't have access to the schedule for this day. Could someone send me a copy?",
             "timestamp":1439
          }
       ],
@@ -689,6 +688,624 @@ var dates = {
             "name":"No School",
             "timestamp":1439
          }
-      ]
+      ],
+      "message":"Yom Kippur &ndash; Day of Atonement"
+   },
+   "2022-10-10":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Sukkot &ndash; Fall Harvest"
+   },
+   "2022-10-11":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Sukkot &ndash; Fall Harvest"
+   },
+   "2022-10-17":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Shemini Atzeret &ndash; Simchat Torah"
+   },
+   "2022-10-18":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Shemini Atzeret &ndash; Simchat Torah"
+   },
+   "2022-11-21":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Parent/Teacher Conferences"
+   },
+   "2022-11-22":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Parent/Teacher Conferences"
+   },
+   "2022-11-23":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Thanksgiving Break"
+   },
+   "2022-11-24":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Thanksgiving Break"
+   },
+   "2022-11-25":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Thanksgiving Break"
+   },
+   "2022-12-22":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Professional Development Day"
+   },
+   "2022-12-23":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2022-12-24":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2022-12-25":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2022-12-26":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2022-12-27":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2022-12-28":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2022-12-29":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2022-12-30":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2022-12-31":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-01-01":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-01-02":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-01-03":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-01-04":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-01-05":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-01-06":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-01-07":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-01-16":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Martin Luther King Jr. Day"
+   },
+   "2023-02-20":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Presidents' Day"
+   },
+   "2023-05-22":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Professional Development Day"
+   },
+   "2023-05-26":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Shavuot &ndash; Festival of Weeks"
+   },
+   "2023-05-29":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Memorial Day"
+   },
+   "2022-10-13":{
+      "events":[
+         {
+            "name":"Block 3",
+            "timestamp":545
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":592
+         },
+         {
+            "name":"Sukkot Program",
+            "timestamp":595
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":637
+         },
+         {
+            "name":"Reflective Practice",
+            "timestamp":640
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":657
+         },
+         {
+            "name":"Block 4",
+            "timestamp":660
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":707
+         },
+         {
+            "name":"Block 6",
+            "timestamp":710
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":757
+         },
+         {
+            "name":"Lunch",
+            "timestamp":760
+         },
+         {
+            "name":"Block 7",
+            "timestamp":800
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":847
+         },
+         {
+            "name":"Block 8",
+            "timestamp":850
+         },
+         {
+            "name":"End of Day",
+            "timestamp":897
+         }
+      ],
+      "message":"Sukkot Program"
+   },
+   "2022-10-14":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":562
+         },
+         {
+            "name":"Block 2",
+            "timestamp":565
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":617
+         },
+         {
+            "name":"Kab Shab",
+            "timestamp":620
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":647
+         },
+         {
+            "name":"Block 5",
+            "timestamp":650
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":702
+         },
+         {
+            "name":"Block 7",
+            "timestamp":705
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":757
+         },
+         {
+            "name":"Lunch + Oneg",
+            "timestamp":760
+         },
+         {
+            "name":"Block 9",
+            "timestamp":815
+         },
+         {
+            "name":"End of Day",
+            "timestamp":867
+         }
+      ],
+      "message":"Balancing Blocks"
+   },
+   "2022-10-21":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":552
+         },
+         {
+            "name":"Block 2",
+            "timestamp":555
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":597
+         },
+         {
+            "name":"Block 5",
+            "timestamp":600
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":642
+         },
+         {
+            "name":"Block 6",
+            "timestamp":645
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":687
+         },
+         {
+            "name":"Kab Shab",
+            "timestamp":690
+         },
+         {
+            "name":"End of Day",
+            "timestamp":720
+         }
+      ],
+      "message":"End of First Quarter"
+   },
+   "2022-10-26":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":562
+         },
+         {
+            "name":"Block 2",
+            "timestamp":565
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":617
+         },
+         {
+            "name":"Beit Midrash",
+            "timestamp":620
+         },
+         {
+            "name":"Advisory",
+            "timestamp":725
+         },
+         {
+            "name":"Lunch",
+            "timestamp":750
+         },
+         {
+            "name":"Block 5",
+            "timestamp":790
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":842
+         },
+         {
+            "name":"Block 9",
+            "timestamp":845
+         },
+         {
+            "name":"End of Day",
+            "timestamp":897
+         }
+      ],
+      "message":"Special Program"
+   },
+   "2022-11-18":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":562
+         },
+         {
+            "name":"Block 2",
+            "timestamp":565
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":617
+         },
+         {
+            "name":"Reflective Practice",
+            "timestamp":620
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":647
+         },
+         {
+            "name":"Thanksgiving Program",
+            "timestamp":650
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":702
+         },
+         {
+            "name":"Block 8",
+            "timestamp":705
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":757
+         },
+         {
+            "name":"Lunch + Oneg",
+            "timestamp":760
+         },
+         {
+            "name":"Block 9",
+            "timestamp":815
+         },
+         {
+            "name":"End of Day",
+            "timestamp":867
+         }
+      ],
+      "message":"Thanksgiving Program"
+   },
+   "2022-11-02":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":562
+         },
+         {
+            "name":"Block 5",
+            "timestamp":565
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":617
+         },
+         {
+            "name":"Seminar",
+            "timestamp":620
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":672
+         },
+         {
+            "name":"Advisory (in MPR)",
+            "timestamp":675
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":692
+         },
+         {
+            "name":"Emergency Lockdown Drill",
+            "timestamp":695
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":747
+         },
+         {
+            "name":"Lunch",
+            "timestamp":750
+         },
+         {
+            "name":"Block 8",
+            "timestamp":790
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":842
+         },
+         {
+            "name":"Block 9",
+            "timestamp":845
+         },
+         {
+            "name":"End of Day",
+            "timestamp":897
+         }
+      ],
+      "message":"Emergency Lockdown Drill"
    }
 }
