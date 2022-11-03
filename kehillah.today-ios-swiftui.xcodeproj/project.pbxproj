@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A4031B5128C91BE20045D5FD /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4031B5028C91BE20045D5FD /* SwiftUIWebView.swift */; };
-		A447B32B291073700099BC9E /* kehillah_today_new.html in Resources */ = {isa = PBXBuildFile; fileRef = A447B32A291073700099BC9E /* kehillah_today_new.html */; };
 		A46B2B7428C9033E00720724 /* kehillah_today_ios.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B2B7328C9033E00720724 /* kehillah_today_ios.swift */; };
 		A46B2B7628C9033E00720724 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B2B7528C9033E00720724 /* ContentView.swift */; };
 		A46B2B7828C9033E00720724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B2B7728C9033E00720724 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 
 /* Begin PBXFileReference section */
 		A4031B5028C91BE20045D5FD /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
-		A447B32A291073700099BC9E /* kehillah_today_new.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kehillah_today_new.html; sourceTree = "<group>"; };
 		A46B2B7028C9033E00720724 /* Kehillah.Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kehillah.Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46B2B7328C9033E00720724 /* kehillah_today_ios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kehillah_today_ios.swift; sourceTree = "<group>"; };
 		A46B2B7528C9033E00720724 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				A46B2B7728C9033E00720724 /* Assets.xcassets */,
 				A46B2B8128C9035700720724 /* dates.js */,
 				A46B2B8328C9036C00720724 /* kehillah_today.html */,
-				A447B32A291073700099BC9E /* kehillah_today_new.html */,
 				A46B2B8528C9038100720724 /* PreLaunch.swift */,
 				A46B2B7928C9033E00720724 /* Preview Content */,
 			);
@@ -143,7 +140,6 @@
 				A46B2B8428C9036C00720724 /* kehillah_today.html in Resources */,
 				A46B2B7B28C9033E00720724 /* Preview Assets.xcassets in Resources */,
 				A46B2B8228C9035700720724 /* dates.js in Resources */,
-				A447B32B291073700099BC9E /* kehillah_today_new.html in Resources */,
 				A46B2B7828C9033E00720724 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
