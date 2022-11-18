@@ -12,9 +12,9 @@
 		A46B2B7628C9033E00720724 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B2B7528C9033E00720724 /* ContentView.swift */; };
 		A46B2B7828C9033E00720724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B2B7728C9033E00720724 /* Assets.xcassets */; };
 		A46B2B7B28C9033E00720724 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B2B7A28C9033E00720724 /* Preview Assets.xcassets */; };
-		A46B2B8228C9035700720724 /* dates.js in Resources */ = {isa = PBXBuildFile; fileRef = A46B2B8128C9035700720724 /* dates.js */; };
 		A46B2B8428C9036C00720724 /* kehillah_today.html in Resources */ = {isa = PBXBuildFile; fileRef = A46B2B8328C9036C00720724 /* kehillah_today.html */; };
 		A46B2B8628C9038100720724 /* PreLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B2B8528C9038100720724 /* PreLaunch.swift */; };
+		A4DB0E882926B083004F053D /* kehillah_today_website.html in Resources */ = {isa = PBXBuildFile; fileRef = A4DB0E872926B083004F053D /* kehillah_today_website.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +24,9 @@
 		A46B2B7528C9033E00720724 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A46B2B7728C9033E00720724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A46B2B7A28C9033E00720724 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A46B2B8128C9035700720724 /* dates.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dates.js; sourceTree = "<group>"; };
 		A46B2B8328C9036C00720724 /* kehillah_today.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kehillah_today.html; sourceTree = "<group>"; };
 		A46B2B8528C9038100720724 /* PreLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLaunch.swift; sourceTree = "<group>"; };
+		A4DB0E872926B083004F053D /* kehillah_today_website.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kehillah_today_website.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 				A46B2B7528C9033E00720724 /* ContentView.swift */,
 				A4031B5028C91BE20045D5FD /* SwiftUIWebView.swift */,
 				A46B2B7728C9033E00720724 /* Assets.xcassets */,
-				A46B2B8128C9035700720724 /* dates.js */,
 				A46B2B8328C9036C00720724 /* kehillah_today.html */,
+				A4DB0E872926B083004F053D /* kehillah_today_website.html */,
 				A46B2B8528C9038100720724 /* PreLaunch.swift */,
 				A46B2B7928C9033E00720724 /* Preview Content */,
 			);
@@ -138,8 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46B2B8428C9036C00720724 /* kehillah_today.html in Resources */,
+				A4DB0E882926B083004F053D /* kehillah_today_website.html in Resources */,
 				A46B2B7B28C9033E00720724 /* Preview Assets.xcassets in Resources */,
-				A46B2B8228C9035700720724 /* dates.js in Resources */,
 				A46B2B7828C9033E00720724 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
