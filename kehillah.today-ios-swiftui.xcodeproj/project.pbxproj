@@ -8,16 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		A4031B5128C91BE20045D5FD /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4031B5028C91BE20045D5FD /* SwiftUIWebView.swift */; };
+		A40F766C29804CD700B40F3A /* WEBSITE.html in Resources */ = {isa = PBXBuildFile; fileRef = A40F766B29804CD700B40F3A /* WEBSITE.html */; };
 		A46B2B7428C9033E00720724 /* kehillah_today_ios.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B2B7328C9033E00720724 /* kehillah_today_ios.swift */; };
 		A46B2B7628C9033E00720724 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B2B7528C9033E00720724 /* ContentView.swift */; };
 		A46B2B7828C9033E00720724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B2B7728C9033E00720724 /* Assets.xcassets */; };
 		A46B2B7B28C9033E00720724 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B2B7A28C9033E00720724 /* Preview Assets.xcassets */; };
 		A46B2B8428C9036C00720724 /* kehillah_today.html in Resources */ = {isa = PBXBuildFile; fileRef = A46B2B8328C9036C00720724 /* kehillah_today.html */; };
 		A46B2B8628C9038100720724 /* PreLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B2B8528C9038100720724 /* PreLaunch.swift */; };
+		A4B151BE294B99BA00BA5992 /* kehillah_today_ios_watchosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B151BD294B99BA00BA5992 /* kehillah_today_ios_watchosApp.swift */; };
+		A4B151C0294B99BA00BA5992 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B151BF294B99BA00BA5992 /* ContentView.swift */; };
+		A4B151C2294B99BB00BA5992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B151C1294B99BB00BA5992 /* Assets.xcassets */; };
+		A4B151C5294B99BB00BA5992 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B151C4294B99BB00BA5992 /* Preview Assets.xcassets */; };
+		A4B151CA294BBF3700BA5992 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B151C9294BBF3700BA5992 /* SwiftUIWebView.swift */; };
+		A4B151CC294BBF7100BA5992 /* PreLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B151CB294BBF7100BA5992 /* PreLaunch.swift */; };
+		A4CD38212A955931009F64BB /* newhtmlsite.html in Resources */ = {isa = PBXBuildFile; fileRef = A4CD38202A955931009F64BB /* newhtmlsite.html */; };
+		A4CD38232A9562B7009F64BB /* testingrn.html in Resources */ = {isa = PBXBuildFile; fileRef = A4CD38222A9562B7009F64BB /* testingrn.html */; };
+		A4CD38252A95692F009F64BB /* LocalWebViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD38242A95692F009F64BB /* LocalWebViewVM.swift */; };
+		A4CD38272A956962009F64BB /* BaseWebViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD38262A956962009F64BB /* BaseWebViewVM.swift */; };
+		A4CD38292A956D08009F64BB /* JSPanelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD38282A956D08009F64BB /* JSPanelType.swift */; };
+		A4CD382B2A956E03009F64BB /* WebViewErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD382A2A956E03009F64BB /* WebViewErrors.swift */; };
+		A4CD383B2A956FC2009F64BB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD383A2A956FC2009F64BB /* WebView.swift */; };
+		A4CD38502A9595DA009F64BB /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD384F2A9595DA009F64BB /* MainPage.swift */; };
+		A4D7815F2A96BAAD00766490 /* old_kehillah_today.html in Resources */ = {isa = PBXBuildFile; fileRef = A4D7815E2A96BAAD00766490 /* old_kehillah_today.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4031B5028C91BE20045D5FD /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		A40F766B29804CD700B40F3A /* WEBSITE.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = WEBSITE.html; sourceTree = "<group>"; };
+		A45BFA7A298987B200E41797 /* kehillah-today-ios-swiftui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "kehillah-today-ios-swiftui-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A46B2B7028C9033E00720724 /* Kehillah.Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kehillah.Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46B2B7328C9033E00720724 /* kehillah_today_ios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kehillah_today_ios.swift; sourceTree = "<group>"; };
 		A46B2B7528C9033E00720724 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,10 +43,33 @@
 		A46B2B7A28C9033E00720724 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A46B2B8328C9036C00720724 /* kehillah_today.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kehillah_today.html; sourceTree = "<group>"; };
 		A46B2B8528C9038100720724 /* PreLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLaunch.swift; sourceTree = "<group>"; };
+		A4B151BB294B99BA00BA5992 /* kehillah.today-ios-watchos Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kehillah.today-ios-watchos Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B151BD294B99BA00BA5992 /* kehillah_today_ios_watchosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kehillah_today_ios_watchosApp.swift; sourceTree = "<group>"; };
+		A4B151BF294B99BA00BA5992 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4B151C1294B99BB00BA5992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4B151C4294B99BB00BA5992 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4B151C9294BBF3700BA5992 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		A4B151CB294BBF7100BA5992 /* PreLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLaunch.swift; sourceTree = "<group>"; };
+		A4CD38202A955931009F64BB /* newhtmlsite.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = newhtmlsite.html; sourceTree = "<group>"; };
+		A4CD38222A9562B7009F64BB /* testingrn.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = testingrn.html; sourceTree = "<group>"; };
+		A4CD38242A95692F009F64BB /* LocalWebViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWebViewVM.swift; sourceTree = "<group>"; };
+		A4CD38262A956962009F64BB /* BaseWebViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewVM.swift; sourceTree = "<group>"; };
+		A4CD38282A956D08009F64BB /* JSPanelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSPanelType.swift; sourceTree = "<group>"; };
+		A4CD382A2A956E03009F64BB /* WebViewErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewErrors.swift; sourceTree = "<group>"; };
+		A4CD383A2A956FC2009F64BB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A4CD384F2A9595DA009F64BB /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		A4D7815E2A96BAAD00766490 /* old_kehillah_today.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = old_kehillah_today.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A46B2B6D28C9033E00720724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B151B8294B99BA00BA5992 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				A46B2B7228C9033E00720724 /* kehillah.today-ios-swiftui */,
+				A4B151BC294B99BA00BA5992 /* kehillah.today-ios-watchos Watch App */,
 				A46B2B7128C9033E00720724 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				A46B2B7028C9033E00720724 /* Kehillah.Today.app */,
+				A4B151BB294B99BA00BA5992 /* kehillah.today-ios-watchos Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,12 +100,19 @@
 		A46B2B7228C9033E00720724 /* kehillah.today-ios-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				A45BFA7A298987B200E41797 /* kehillah-today-ios-swiftui-Info.plist */,
 				A46B2B7328C9033E00720724 /* kehillah_today_ios.swift */,
 				A46B2B7528C9033E00720724 /* ContentView.swift */,
-				A4031B5028C91BE20045D5FD /* SwiftUIWebView.swift */,
+				A4CD382D2A956E9E009F64BB /* Enums */,
+				A4CD382E2A956EB9009F64BB /* Components */,
+				A4CD38392A956F7B009F64BB /* Sub Views */,
+				A4CD382C2A956E89009F64BB /* View Models */,
 				A46B2B7728C9033E00720724 /* Assets.xcassets */,
 				A46B2B8328C9036C00720724 /* kehillah_today.html */,
-				A46B2B8528C9038100720724 /* PreLaunch.swift */,
+				A4CD38202A955931009F64BB /* newhtmlsite.html */,
+				A4CD38222A9562B7009F64BB /* testingrn.html */,
+				A4D7815E2A96BAAD00766490 /* old_kehillah_today.html */,
+				A40F766B29804CD700B40F3A /* WEBSITE.html */,
 				A46B2B7928C9033E00720724 /* Preview Content */,
 			);
 			path = "kehillah.today-ios-swiftui";
@@ -74,6 +124,63 @@
 				A46B2B7A28C9033E00720724 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4B151BC294B99BA00BA5992 /* kehillah.today-ios-watchos Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A4B151BD294B99BA00BA5992 /* kehillah_today_ios_watchosApp.swift */,
+				A4B151BF294B99BA00BA5992 /* ContentView.swift */,
+				A4B151C9294BBF3700BA5992 /* SwiftUIWebView.swift */,
+				A4B151C1294B99BB00BA5992 /* Assets.xcassets */,
+				A4B151C3294B99BB00BA5992 /* Preview Content */,
+				A4B151CB294BBF7100BA5992 /* PreLaunch.swift */,
+			);
+			path = "kehillah.today-ios-watchos Watch App";
+			sourceTree = "<group>";
+		};
+		A4B151C3294B99BB00BA5992 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4B151C4294B99BB00BA5992 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4CD382C2A956E89009F64BB /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				A46B2B8528C9038100720724 /* PreLaunch.swift */,
+				A4CD38262A956962009F64BB /* BaseWebViewVM.swift */,
+				A4CD38242A95692F009F64BB /* LocalWebViewVM.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		A4CD382D2A956E9E009F64BB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A4CD38282A956D08009F64BB /* JSPanelType.swift */,
+				A4CD382A2A956E03009F64BB /* WebViewErrors.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		A4CD382E2A956EB9009F64BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A4031B5028C91BE20045D5FD /* SwiftUIWebView.swift */,
+				A4CD383A2A956FC2009F64BB /* WebView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A4CD38392A956F7B009F64BB /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4CD384F2A9595DA009F64BB /* MainPage.swift */,
+			);
+			path = "Sub Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +203,23 @@
 			productReference = A46B2B7028C9033E00720724 /* Kehillah.Today.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A4B151BA294B99BA00BA5992 /* kehillah.today-ios-watchos Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B151C8294B99BB00BA5992 /* Build configuration list for PBXNativeTarget "kehillah.today-ios-watchos Watch App" */;
+			buildPhases = (
+				A4B151B7294B99BA00BA5992 /* Sources */,
+				A4B151B8294B99BA00BA5992 /* Frameworks */,
+				A4B151B9294B99BA00BA5992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kehillah.today-ios-watchos Watch App";
+			productName = "kehillah.today-ios-watchos Watch App";
+			productReference = A4B151BB294B99BA00BA5992 /* kehillah.today-ios-watchos Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -103,11 +227,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					A46B2B6F28C9033E00720724 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					A4B151BA294B99BA00BA5992 = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
@@ -125,6 +252,7 @@
 			projectRoot = "";
 			targets = (
 				A46B2B6F28C9033E00720724 /* kehillah.today-ios-swiftui */,
+				A4B151BA294B99BA00BA5992 /* kehillah.today-ios-watchos Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -136,7 +264,20 @@
 			files = (
 				A46B2B8428C9036C00720724 /* kehillah_today.html in Resources */,
 				A46B2B7B28C9033E00720724 /* Preview Assets.xcassets in Resources */,
+				A4CD38212A955931009F64BB /* newhtmlsite.html in Resources */,
+				A4CD38232A9562B7009F64BB /* testingrn.html in Resources */,
+				A40F766C29804CD700B40F3A /* WEBSITE.html in Resources */,
+				A4D7815F2A96BAAD00766490 /* old_kehillah_today.html in Resources */,
 				A46B2B7828C9033E00720724 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B151B9294B99BA00BA5992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B151C5294B99BB00BA5992 /* Preview Assets.xcassets in Resources */,
+				A4B151C2294B99BB00BA5992 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,9 +289,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4031B5128C91BE20045D5FD /* SwiftUIWebView.swift in Sources */,
+				A4CD38292A956D08009F64BB /* JSPanelType.swift in Sources */,
+				A4CD38252A95692F009F64BB /* LocalWebViewVM.swift in Sources */,
 				A46B2B7628C9033E00720724 /* ContentView.swift in Sources */,
+				A4CD38502A9595DA009F64BB /* MainPage.swift in Sources */,
+				A4CD382B2A956E03009F64BB /* WebViewErrors.swift in Sources */,
 				A46B2B8628C9038100720724 /* PreLaunch.swift in Sources */,
 				A46B2B7428C9033E00720724 /* kehillah_today_ios.swift in Sources */,
+				A4CD38272A956962009F64BB /* BaseWebViewVM.swift in Sources */,
+				A4CD383B2A956FC2009F64BB /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B151B7294B99BA00BA5992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B151CC294BBF7100BA5992 /* PreLaunch.swift in Sources */,
+				A4B151C0294B99BA00BA5992 /* ContentView.swift in Sources */,
+				A4B151CA294BBF3700BA5992 /* SwiftUIWebView.swift in Sources */,
+				A4B151BE294B99BA00BA5992 /* kehillah_today_ios_watchosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +440,7 @@
 				DEVELOPMENT_TEAM = WRA227JL28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "kehillah-today-ios-swiftui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -311,7 +469,7 @@
 				DEVELOPMENT_TEAM = WRA227JL28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "kehillah-today-ios-swiftui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -326,6 +484,68 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4B151C6294B99BB00BA5992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kehillah.today-ios-watchos Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WRA227JL28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "kehillah.today-ios-watchos";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		A4B151C7294B99BB00BA5992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kehillah.today-ios-watchos Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WRA227JL28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "kehillah.today-ios-watchos";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -346,6 +566,15 @@
 			buildConfigurations = (
 				A46B2B7F28C9033E00720724 /* Debug */,
 				A46B2B8028C9033E00720724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B151C8294B99BB00BA5992 /* Build configuration list for PBXNativeTarget "kehillah.today-ios-watchos Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B151C6294B99BB00BA5992 /* Debug */,
+				A4B151C7294B99BB00BA5992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

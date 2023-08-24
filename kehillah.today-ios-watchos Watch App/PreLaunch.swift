@@ -1,8 +1,8 @@
 //
 //  PreLaunch.swift
-//  kehillah.today-ios-swiftui
+//  kehillah.today-ios-watchos Watch App
 //
-//  Created by Justin B on 9/7/22.
+//  Created by Ovlic B on 12/15/22.
 //
 
 import SwiftUI
@@ -40,4 +40,3 @@ struct PreLaunch_Previews: PreviewProvider {
         PreLaunch()
     }
 }
-
