@@ -1255,5 +1255,14 @@
          }
       ],
       "message":"Final Exams"
+   },
+   "2024-03-06":{
+      "events":[
+         {
+            "name":"test",
+            "timestamp":1120
+         }
+      ],
+      "message":"testing lol"
    }
 }
