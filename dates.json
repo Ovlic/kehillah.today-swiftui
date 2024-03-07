@@ -1,3 +1,1259 @@
 {
-  "test": false
+   "MON":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":570
+         },
+         {
+            "name":"Assembly",
+            "timestamp":575
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":595
+         },
+         {
+            "name":"Advisory",
+            "timestamp":600
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":615
+         },
+         {
+            "name":"Block 2",
+            "timestamp":620
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":680
+         },
+         {
+            "name":"Block 3",
+            "timestamp":685
+         },
+         {
+            "name":"Lunch",
+            "timestamp":745
+         },
+         {
+            "name":"Block 6",
+            "timestamp":790
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":850
+         },
+         {
+            "name":"Block 7",
+            "timestamp":855
+         },
+         {
+            "name":"End of Day",
+            "timestamp":915
+         }
+      ]
+   },
+   "TUE":{
+      "events":[
+         {
+            "name":"Block 4",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":570
+         },
+         {
+            "name":"Seminar / Town Hall",
+            "timestamp":575
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":615
+         },
+         {
+            "name":"Block 5",
+            "timestamp":620
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":680
+         },
+         {
+            "name":"Block 3",
+            "timestamp":685
+         },
+         {
+            "name":"Lunch",
+            "timestamp":745
+         },
+         {
+            "name":"Block 8",
+            "timestamp":790
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":850
+         },
+         {
+            "name":"Block 6",
+            "timestamp":855
+         },
+         {
+            "name":"End of Day",
+            "timestamp":915
+         }
+      ]
+   },
+   "WED":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":550
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":610
+         },
+         {
+            "name":"Block 5",
+            "timestamp":615
+         },
+         {
+            "name":"Break",
+            "timestamp":675
+         },
+         {
+            "name":"Block 2",
+            "timestamp":685
+         },
+         {
+            "name":"Lunch",
+            "timestamp":745
+         },
+         {
+            "name":"Block 7",
+            "timestamp":790
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":850
+         },
+         {
+            "name":"Block 8",
+            "timestamp":855
+         },
+         {
+            "name":"End of Day",
+            "timestamp":915
+         }
+      ]
+   },
+   "THU":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":570
+         },
+         {
+            "name":"Heart Work",
+            "timestamp":575
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":615
+         },
+         {
+            "name":"Block 4",
+            "timestamp":620
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":680
+         },
+         {
+            "name":"Block 3",
+            "timestamp":685
+         },
+         {
+            "name":"Lunch",
+            "timestamp":745
+         },
+         {
+            "name":"Block 6",
+            "timestamp":790
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":850
+         },
+         {
+            "name":"Block 7",
+            "timestamp":855
+         },
+         {
+            "name":"End of Day",
+            "timestamp":915
+         }
+      ]
+   },
+   "FRI":{
+      "events":[
+         {
+            "name":"Block 4",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":570
+         },
+         {
+            "name":"Kab Shab + Oneg",
+            "timestamp":575
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":605
+         },
+         {
+            "name":"Block 5",
+            "timestamp":610
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":670
+         },
+         {
+            "name":"Block 2",
+            "timestamp":675
+         },
+         {
+            "name":"Lunch",
+            "timestamp":735
+         },
+         {
+            "name":"Block 8",
+            "timestamp":795
+         },
+         {
+            "name":"End of Day",
+            "timestamp":855
+         }
+      ]
+   },
+   "SAT":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Saturday"
+   },
+   "SUN":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Sunday"
+   },
+   "2023-01-01":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":1230
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":1282
+         },
+         {
+            "name":"Block 2",
+            "timestamp":1285
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":1337
+         },
+         {
+            "name":"Kab Shab",
+            "timestamp":1340
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":1367
+         },
+         {
+            "name":"Block 5",
+            "timestamp":1370
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":1380
+         },
+         {
+            "name":"Block 6",
+            "timestamp":1425
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":1432
+         },
+         {
+            "name":"Lunch + Oneg",
+            "timestamp":1433
+         },
+         {
+            "name":"Block 9",
+            "timestamp":1434
+         },
+         {
+            "name":"End of Day",
+            "timestamp":1439
+         }
+      ],
+      "message":"Example Schedule"
+   },
+   "2023-07-31":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-01":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-02":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-03":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-04":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-05":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-06":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-07":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-08":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-09":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-10":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-11":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-12":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-13":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-14":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-15":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-16":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-17":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-18":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-19":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-20":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Summer Break"
+   },
+   "2023-08-22":{
+      "events":[
+         {
+            "name":"Kinnus",
+            "timestamp":0
+         }
+      ],
+      "message":"Kinnus"
+   },
+   "2023-09-04":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Labor Day"
+   },
+   "2023-09-25":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Yom Kippur / Day of Atonement"
+   },
+   "2023-09-26":{
+      "events":[
+         {
+            "name":"Advisory",
+            "timestamp":600
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":615
+         },
+         {
+            "name":"Block 5",
+            "timestamp":620
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":680
+         },
+         {
+            "name":"Block 3",
+            "timestamp":685
+         },
+         {
+            "name":"Lunch",
+            "timestamp":745
+         },
+         {
+            "name":"Block 8",
+            "timestamp":790
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":850
+         },
+         {
+            "name":"Block 6",
+            "timestamp":855
+         },
+         {
+            "name":"End of Day",
+            "timestamp":915
+         }
+      ],
+      "message":"Late Start"
+   },
+   "2023-09-29":{
+      "events":[
+         {
+            "name":"Block 4",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":570
+         },
+         {
+            "name":"Kab Shab + Oneg",
+            "timestamp":575
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":605
+         },
+         {
+            "name":"Block 5",
+            "timestamp":610
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":670
+         },
+         {
+            "name":"Block 2",
+            "timestamp":675
+         },
+         {
+            "name":"Lunch",
+            "timestamp":735
+         },
+         {
+            "name":"Block 8",
+            "timestamp":795
+         },
+         {
+            "name":"End of Day",
+            "timestamp":855
+         }
+      ],
+      "message":"Noon Release"
+   },
+   "2023-10-13":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Extended Fall Weekend"
+   },
+   "2023-10-20":{
+      "events":[
+         {
+            "name":"Block 4",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":570
+         },
+         {
+            "name":"Kab Shab + Oneg",
+            "timestamp":575
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":605
+         },
+         {
+            "name":"Block 5",
+            "timestamp":610
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":670
+         },
+         {
+            "name":"Block 2",
+            "timestamp":675
+         },
+         {
+            "name":"End of Day",
+            "timestamp":720
+         }
+      ],
+      "message":"End of Quarter 1"
+   },
+   "2023-10-26":{
+      "events":[
+         {
+            "name":"PSAT/SAT Testing",
+            "timestamp":480
+         }
+      ],
+      "message":"Standardized Testing"
+   },
+   "2023-11-22":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Thanksgiving Break"
+   },
+   "2023-11-23":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Thanksgiving Break"
+   },
+   "2023-11-24":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Thanksgiving Break"
+   },
+   "2023-12-20":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-21":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-22":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-23":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-24":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-25":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-26":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-27":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-28":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-29":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-30":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2023-12-31":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2024-01-01":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2024-01-02":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Winter Break"
+   },
+   "2024-01-15":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Martin Luther King Jr. Day"
+   },
+   "2024-01-22":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":565
+         },
+         {
+            "name":"Assembly",
+            "timestamp":570
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":630
+         },
+         {
+            "name":"Block 2",
+            "timestamp":635
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":690
+         },
+         {
+            "name":"Block 3",
+            "timestamp":695
+         },
+         {
+            "name":"Lunch",
+            "timestamp":750
+         },
+         {
+            "name":"Block 6",
+            "timestamp":795
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":850
+         },
+         {
+            "name":"Block 7",
+            "timestamp":855
+         },
+         {
+            "name":"End of Day",
+            "timestamp":915
+         }
+      ],
+      "message":"All-School Program"
+   },
+   "2024-03-11":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":565
+         },
+         {
+            "name":"Assembly",
+            "timestamp":570
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":630
+         },
+         {
+            "name":"Block 2",
+            "timestamp":635
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":690
+         },
+         {
+            "name":"Block 3",
+            "timestamp":695
+         },
+         {
+            "name":"Lunch",
+            "timestamp":750
+         },
+         {
+            "name":"Block 6",
+            "timestamp":795
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":850
+         },
+         {
+            "name":"Block 7",
+            "timestamp":855
+         },
+         {
+            "name":"End of Day",
+            "timestamp":915
+         }
+      ],
+      "message":"All-School Program"
+   },
+   "2024-04-11":{
+      "events":[
+         {
+            "name":"Block 1",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":565
+         },
+         {
+            "name":"Assembly",
+            "timestamp":570
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":630
+         },
+         {
+            "name":"Block 4",
+            "timestamp":635
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":690
+         },
+         {
+            "name":"Block 3",
+            "timestamp":695
+         },
+         {
+            "name":"Lunch",
+            "timestamp":750
+         },
+         {
+            "name":"Block 6",
+            "timestamp":795
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":850
+         },
+         {
+            "name":"Block 7",
+            "timestamp":855
+         },
+         {
+            "name":"End of Day",
+            "timestamp":915
+         }
+      ],
+      "message":"All-School Program"
+   },
+   "2024-02-19":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Day Off"
+   },
+   "2024-02-26":{
+      "events":[
+         {
+            "name":"Trips",
+            "timestamp":0
+         },
+         {
+            "name":"Trips",
+            "timestamp":1439
+         }
+      ],
+      "message":"Trips"
+   },
+   "2024-02-27":{
+      "events":[
+         {
+            "name":"Trips",
+            "timestamp":1439
+         }
+      ],
+      "message":"Trips"
+   },
+   "2024-02-28":{
+      "events":[
+         {
+            "name":"Trips",
+            "timestamp":1439
+         }
+      ],
+      "message":"Trips"
+   },
+   "2024-02-29":{
+      "events":[
+         {
+            "name":"Trips",
+            "timestamp":1439
+         }
+      ],
+      "message":"Trips"
+   },
+   "2024-03-01":{
+      "events":[
+         {
+            "name":"Trips",
+            "timestamp":1439
+         }
+      ],
+      "message":"Trips"
+   },
+   "2024-03-04":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Trip Recovery"
+   },
+   "2024-03-05":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Trip Recovery"
+   },
+   "2024-03-15":{
+      "events":[
+         {
+            "name":"Block 4",
+            "timestamp":510
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":570
+         },
+         {
+            "name":"Kab Shab + Oneg",
+            "timestamp":575
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":605
+         },
+         {
+            "name":"Block 5",
+            "timestamp":610
+         },
+         {
+            "name":"Passing Period",
+            "timestamp":670
+         },
+         {
+            "name":"Block 2",
+            "timestamp":675
+         },
+         {
+            "name":"End of Day",
+            "timestamp":720
+         }
+      ],
+      "message":"Noon Release"
+   },
+   "2024-03-18":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Days Off"
+   },
+   "2024-03-19":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Days Off"
+   },
+   "2024-04-22":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Passover Break"
+   },
+   "2024-04-23":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Passover Break"
+   },
+   "2024-04-24":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Passover Break"
+   },
+   "2024-04-25":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Passover Break"
+   },
+   "2024-04-26":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Passover Break"
+   },
+   "2024-04-27":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Passover Break"
+   },
+   "2024-04-28":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Passover Break"
+   },
+   "2024-04-29":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Passover Break"
+   },
+   "2024-04-30":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Passover Break"
+   },
+   "2024-05-27":{
+      "events":[
+         {
+            "name":"No School",
+            "timestamp":1439
+         }
+      ],
+      "message":"Memorial Day"
+   },
+   "2024-05-28":{
+      "events":[
+         {
+            "name":"Final Exams",
+            "timestamp":510
+         }
+      ],
+      "message":"Final Exams"
+   },
+   "2024-05-29":{
+      "events":[
+         {
+            "name":"Final Exams",
+            "timestamp":510
+         }
+      ],
+      "message":"Final Exams"
+   },
+   "2024-05-30":{
+      "events":[
+         {
+            "name":"Final Exams",
+            "timestamp":510
+         }
+      ],
+      "message":"Final Exams"
+   }
 }
