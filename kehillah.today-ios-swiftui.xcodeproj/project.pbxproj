@@ -30,6 +30,7 @@
 		A4CD383B2A956FC2009F64BB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD383A2A956FC2009F64BB /* WebView.swift */; };
 		A4CD38502A9595DA009F64BB /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD384F2A9595DA009F64BB /* MainPage.swift */; };
 		A4D7815F2A96BAAD00766490 /* old_kehillah_today.html in Resources */ = {isa = PBXBuildFile; fileRef = A4D7815E2A96BAAD00766490 /* old_kehillah_today.html */; };
+		A4F7913A2C740C400046D4E3 /* evennewersite.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F791392C740C370046D4E3 /* evennewersite.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		A4CD383A2A956FC2009F64BB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		A4CD384F2A9595DA009F64BB /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		A4D7815E2A96BAAD00766490 /* old_kehillah_today.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = old_kehillah_today.html; sourceTree = "<group>"; };
+		A4F791392C740C370046D4E3 /* evennewersite.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = evennewersite.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A4CD382C2A956E89009F64BB /* View Models */,
 				A46B2B7728C9033E00720724 /* Assets.xcassets */,
 				A46B2B8328C9036C00720724 /* kehillah_today.html */,
+				A4F791392C740C370046D4E3 /* evennewersite.html */,
 				A4CD38202A955931009F64BB /* newhtmlsite.html */,
 				A4CD38222A9562B7009F64BB /* testingrn.html */,
 				A4D7815E2A96BAAD00766490 /* old_kehillah_today.html */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46B2B8428C9036C00720724 /* kehillah_today.html in Resources */,
+				A4F7913A2C740C400046D4E3 /* evennewersite.html in Resources */,
 				A46B2B7B28C9033E00720724 /* Preview Assets.xcassets in Resources */,
 				A4CD38212A955931009F64BB /* newhtmlsite.html in Resources */,
 				A4CD38232A9562B7009F64BB /* testingrn.html in Resources */,

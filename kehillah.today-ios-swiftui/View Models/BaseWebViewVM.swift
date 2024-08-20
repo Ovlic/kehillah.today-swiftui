@@ -112,6 +112,7 @@ if #available(iOS 16.4, *) {
                 print("Dark mode on")
                 
             }
+    
             self.messageFromWV = String(describing: message)
 
         } else {
@@ -153,7 +154,11 @@ if #available(iOS 16.4, *) {
                     UserDefaults.standard.set(true, forKey: "DarkMode")
                     returnValue = "Set dark mode on!"
                 }
-            }
+            } else if fromHandler == "JsonNumber" {
+                var theCurrentNumber = UserDefaults.standard.integer(forKey: "JsonNumber")
+                UserDefaults.standard.set(theCurrentNumber+1, forKey: "JsonNumber")
+                returnValue = String(theCurrentNumber+1)
+           }
         
         return returnValue
     }
