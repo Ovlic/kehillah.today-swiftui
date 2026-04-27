@@ -103,7 +103,8 @@ if #available(iOS 16.4, *) {
     func messageFrom(fromHandler: String, message: Any) {
         print("MessageFrom")
         if fromHandler == "DarkMode" {
-            if message as! String == "false" {
+            // print("DarkMode!")
+            /*if message as! String == "false" {
                 UserDefaults.standard.set(false, forKey: "DarkMode")
                 print("Dark mode off")
                 
@@ -111,10 +112,31 @@ if #available(iOS 16.4, *) {
                 UserDefaults.standard.set(true, forKey: "DarkMode")
                 print("Dark mode on")
                 
-            }
-    
-            self.messageFromWV = String(describing: message)
+            }*/
+            let isDark = (message as? String) == "true"
+            UserDefaults.standard.set(isDark, forKey: "DarkMode")
 
+//            DispatchQueue.main.async {
+//                        // repaint backgrounds immediately
+//                        self.webView.setNeedsLayout()
+//                        self.webView.layoutIfNeeded()
+//            DispatchQueue.main.async {
+//                applyOverscrollBackground(self.webView, isDark: isDark)
+//            }
+            let lightLavender = UIColor(red: 238.0/255.0, green: 238.0/255.0, blue: 255.0/255.0, alpha: 1.0)
+            let darkMirrored  = UIColor(red: 17.0/255.0,  green: 17.0/255.0,  blue: 0.0/255.0,   alpha: 1.0)
+            let bg = isDark ? darkMirrored : lightLavender
+
+            DispatchQueue.main.async {
+                self.webView.isOpaque = false
+                self.webView.backgroundColor = bg
+                self.webView.scrollView.backgroundColor = bg
+                self.webView.scrollView.subviews.forEach { $0.backgroundColor = bg }
+            }
+
+            self.messageFromWV = String(describing: message)
+            print("DarkMode applied to overscroll:", isDark)
+            return
         } else {
             self.panelTitle = JSPanelType.alert.description // "Alert"
             self.panelMessage = String(describing: message)
@@ -147,13 +169,22 @@ if #available(iOS 16.4, *) {
                 returnValue = "{ data: \"It is good part 2!\" }"
                 
             } else if fromHandler == "DarkMode" {
-                if message as! String == "false" {
+                /*if message as! String == "false" {
                     UserDefaults.standard.set(false, forKey: "DarkMode")
                     returnValue = "Set dark mode off!"
                 } else if message as! String == "true" {
                     UserDefaults.standard.set(true, forKey: "DarkMode")
                     returnValue = "Set dark mode on!"
+                } */
+                let isDark = (message as? String) == "true"
+                UserDefaults.standard.set(isDark, forKey: "DarkMode")
+
+                DispatchQueue.main.async {
+                    self.webView.isOpaque = false
+                    self.webView.backgroundColor = isDark ? .black : .white
+                    self.webView.scrollView.backgroundColor = isDark ? .black : .white
                 }
+
             } else if fromHandler == "JsonNumber" {
                 var theCurrentNumber = UserDefaults.standard.integer(forKey: "JsonNumber")
                 UserDefaults.standard.set(theCurrentNumber+1, forKey: "JsonNumber")
@@ -174,3 +205,20 @@ if #available(iOS 16.4, *) {
         }
     }
 }
+
+private func applyOverscrollBackground(_ webView: WKWebView, isDark: Bool) {
+    let lightLavender = UIColor(red: 238.0/255.0, green: 238.0/255.0, blue: 255.0/255.0, alpha: 1.0) // #EEEEFF
+    let darkMirrored  = UIColor(red: 17.0/255.0,  green: 17.0/255.0,  blue: 0.0/255.0,   alpha: 1.0) // #111100
+
+    let bg = isDark ? darkMirrored : lightLavender
+
+    func paint(_ view: UIView) {
+        view.backgroundColor = bg
+        view.subviews.forEach(paint)
+    }
+
+    webView.isOpaque = false
+    paint(webView)
+    paint(webView.scrollView)
+}
+
