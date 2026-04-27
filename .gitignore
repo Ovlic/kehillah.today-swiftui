@@ -1,1 +1,21 @@
+# MacOS
+.DS_Store
+__MACOSX/
+
+# Project
 build/
+tmp/
+DerivedData/
+*.xcarchive
+*.ipa
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Misc
+.github/secrets/
