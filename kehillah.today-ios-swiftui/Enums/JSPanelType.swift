@@ -2,10 +2,10 @@
 //  JSPanelType.swift
 //  kehillah.today-ios-swiftui
 //
-//  Created by Ovlic B on 8/22/23.
+//  Created by Justin B on 8/22/23.
 //
 
-// From https://medium.com/@yeeedward/messaging-between-wkwebview-and-native-application-in-swiftui-e985f0bfacf
+// Parts from https://medium.com/@yeeedward/messaging-between-wkwebview-and-native-application-in-swiftui-e985f0bfacf
 
 import Foundation
 

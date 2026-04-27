@@ -2,7 +2,7 @@
 //  PreLaunch.swift
 //  kehillah.today-ios-watchos Watch App
 //
-//  Created by Ovlic B on 12/15/22.
+//  Created by Justin B on 12/15/22.
 //
 
 import SwiftUI
