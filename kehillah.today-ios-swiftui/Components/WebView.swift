@@ -2,7 +2,7 @@
 //  WebView.swift
 //  kehillah.today-ios-swiftui
 //
-//  Created by Ovlic B on 8/22/23.
+//  Created by Justin B on 8/22/23.
 //
 
 import SwiftUI
@@ -47,6 +47,13 @@ struct WebView: View {
 
 struct WebView_Previews: PreviewProvider {
     static var previews: some View {
-        WebView(vm: LocalWebViewVM(webResource: "index.html"))
+        // Hi! The HTML file passed in here does NOT change which file the app loads!
+        // This code was written a while ago to make an attempt to hook up the code
+        // more naturally with Swift so I could add more features, but I never got
+        // around to doing that.
+        
+        // If you are trying to change the HTML source file for the app, change the
+        // path found within the 'vm' variable in Sub Views/MainPage.swift!
+        WebView(vm: LocalWebViewVM(webResource: "NOTindex.html"))
     }
 }
