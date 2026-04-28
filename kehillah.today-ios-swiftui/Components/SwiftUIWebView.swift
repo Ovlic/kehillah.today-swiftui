@@ -4,59 +4,6 @@
 //
 //  Created by Justin B on 9/7/22.
 //
-//
-//import SwiftUI
-//import WebKit
-//
-//struct SwiftUIWebView: UIViewRepresentable {
-//    typealias UIViewType = WKWebView
-//
-//    //let webView: WKWebView
-////    init() {
-////        webView = WKWebView(frame: .zero)
-////
-////        //webView.load(URLRequest(url: URL(fileURLWithPath: Bundle.main.path(forResource: /*"kehillah_today", ofType: "html"*/"newhtmlsite", ofType:"html")!)))
-////
-////        webView.load(URLRequest(url: URL(fileURLWithPath: Bundle.main.path(forResource: /*"kehillah_today", ofType: "html"*/"testingrn", ofType:"html")!)))
-////
-////        //webView.load(URLRequest(url: URL(fileURLWithPath: Bundle.main.path(forResource: "kehillah_today", ofType: "html")!)))
-////
-////    }
-//    var vm: BaseWebViewVM
-//
-//    // Initialize with a view-model
-//        init(viewModel: BaseWebViewVM) {
-//            self.vm = viewModel
-//        }
-//
-//    func makeUIView(context: Context) -> WKWebView {
-//            return vm.webView
-//        }
-//
-//        func updateUIView(_ uiView: WKWebView, context: Context) {
-//        }
-//
-//        func makeCoordinator() -> Coordinator {
-//            return Coordinator(viewModel: vm)
-//        }
-//
-////    func makeUIView(context: Context)-> WKWebView {
-////        webView
-////    }
-////    func updateUIView(_ uiView: WKWebView, context: Context) {
-////    }
-//}
-//
-//extension SwiftUIWebView {
-//    class Coordinator: NSObject {
-//        var viewModel: BaseWebViewVM
-//
-//        init(viewModel: BaseWebViewVM) {
-//            self.viewModel = viewModel
-//        }
-//    }
-//}
-
 
 import SwiftUI
 import WebKit
@@ -77,7 +24,6 @@ private func overscrollColor() -> UIColor {
 }
 
 
-//private func setOverscrollBackground(_ webView: WKWebView) {
 private func setOverscrollBackground(_ webView: WKWebView, color: UIColor) {
 
     /*
@@ -269,8 +215,16 @@ extension SwiftUIWebView {
         }
     }
 }
+
 struct SwiftUIWebView_Previews: PreviewProvider {
-    static let vm = LocalWebViewVM(webResource: "index.html")
+    // Hi! The HTML file passed in here does NOT change which file the app loads!
+    // This code was written a while ago to make an attempt to hook up the code
+    // more naturally with Swift so I could add more features, but I never got
+    // around to doing that.
+    
+    // If you are trying to change the HTML source file for the app, change the
+    // path found within the 'vm' variable in Sub Views/MainPage.swift!
+    static let vm = LocalWebViewVM(webResource: "NOTindex.html")
     
     static var previews: some View {
         SwiftUIWebView(viewModel: vm)
