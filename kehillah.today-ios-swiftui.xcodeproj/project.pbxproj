@@ -19,7 +19,7 @@
 		A4B151C5294B99BB00BA5992 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B151C4294B99BB00BA5992 /* Preview Assets.xcassets */; };
 		A4B151CA294BBF3700BA5992 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B151C9294BBF3700BA5992 /* SwiftUIWebView.swift */; };
 		A4B151CC294BBF7100BA5992 /* PreLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B151CB294BBF7100BA5992 /* PreLaunch.swift */; };
-		A4CA41A02FA029D7007F8A26 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A4CA419F2FA029D7007F8A26 /* index.html */; };
+		A4CA41AE2FA02F6C007F8A26 /* kt_mobile.html in Resources */ = {isa = PBXBuildFile; fileRef = A4CA41AD2FA02F6C007F8A26 /* kt_mobile.html */; };
 		A4CD38252A95692F009F64BB /* LocalWebViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD38242A95692F009F64BB /* LocalWebViewVM.swift */; };
 		A4CD38272A956962009F64BB /* BaseWebViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD38262A956962009F64BB /* BaseWebViewVM.swift */; };
 		A4CD38292A956D08009F64BB /* JSPanelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD38282A956D08009F64BB /* JSPanelType.swift */; };
@@ -44,7 +44,7 @@
 		A4B151C4294B99BB00BA5992 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4B151C9294BBF3700BA5992 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
 		A4B151CB294BBF7100BA5992 /* PreLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLaunch.swift; sourceTree = "<group>"; };
-		A4CA419F2FA029D7007F8A26 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		A4CA41AD2FA02F6C007F8A26 /* kt_mobile.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kt_mobile.html; sourceTree = "<group>"; };
 		A4CD38242A95692F009F64BB /* LocalWebViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalWebViewVM.swift; sourceTree = "<group>"; };
 		A4CD38262A956962009F64BB /* BaseWebViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewVM.swift; sourceTree = "<group>"; };
 		A4CD38282A956D08009F64BB /* JSPanelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSPanelType.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 				A46B2B7728C9033E00720724 /* Assets.xcassets */,
 				A46B2B7928C9033E00720724 /* Preview Content */,
 				A4CA41942FA0298C007F8A26 /* Old HTML */,
-				A4CA419F2FA029D7007F8A26 /* index.html */,
+				A4CA41AD2FA02F6C007F8A26 /* kt_mobile.html */,
 			);
 			path = "kehillah.today-ios-swiftui";
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			files = (
 				A46B2B7B28C9033E00720724 /* Preview Assets.xcassets in Resources */,
 				A46B2B7828C9033E00720724 /* Assets.xcassets in Resources */,
-				A4CA41A02FA029D7007F8A26 /* index.html in Resources */,
+				A4CA41AE2FA02F6C007F8A26 /* kt_mobile.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
