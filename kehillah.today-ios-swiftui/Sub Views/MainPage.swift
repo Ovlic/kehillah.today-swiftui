@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MainPage: View {
     // The HTML file passed here changes which file the app loads.
-    @ObservedObject var vm = LocalWebViewVM(webResource: "announcement_test.html")
+    @ObservedObject var vm = LocalWebViewVM(webResource: "kt_mobile.html")
     
     //@ViewBuilder
     var body: some View {
