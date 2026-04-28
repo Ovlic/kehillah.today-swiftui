@@ -1,4 +1,4 @@
-# Kehillah Today (iOS)
+# Kehillah.Today (iOS)
 
 [![App Store](https://img.shields.io/badge/App%20Store-Download-blue?logo=apple)](https://apps.apple.com/app/id6443492717)
 ![iOS](https://img.shields.io/badge/iOS-15.5%2B-black?logo=apple)
