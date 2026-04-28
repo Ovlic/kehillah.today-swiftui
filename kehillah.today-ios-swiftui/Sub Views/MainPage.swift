@@ -2,13 +2,14 @@
 //  MainPage.swift
 //  kehillah.today-ios-swiftui
 //
-//  Created by Ovlic B on 8/22/23.
+//  Created by Justin B on 8/22/23.
 //
 
 import SwiftUI
 
 struct MainPage: View {
-    @ObservedObject var vm = LocalWebViewVM(webResource: "kehillah_today.html")
+    // The HTML file passed here changes which file the app loads.
+    @ObservedObject var vm = LocalWebViewVM(webResource: "announcement_test.html")
     
     //@ViewBuilder
     var body: some View {
@@ -19,11 +20,11 @@ struct MainPage: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .edgesIgnoringSafeArea(.all)
             .background(Color("Background"))
-            .hueRotation(.degrees(UserDefaults.standard.bool(forKey: "DarkMode") == true ? 180 : 0))
-            .if(UserDefaults.standard.bool(forKey: "DarkMode") == true) { view in
-                view.colorInvert()
-            }
-            .preferredColorScheme(UserDefaults.standard.bool(forKey: "DarkMode") == true ? .dark : .light)
+            // .hueRotation(.degrees(UserDefaults.standard.bool(forKey: "DarkMode") == true ? 180 : 0))
+            //.if(UserDefaults.standard.bool(forKey: "DarkMode") == true) { view in
+              //  view.colorInvert()
+            //}
+            //.preferredColorScheme(UserDefaults.standard.bool(forKey: "DarkMode") == true ? .dark : .light)
             
         
             
